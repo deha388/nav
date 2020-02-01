@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    android:layout_marginBottom="4dp"
+    android:id="@+id/b"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/MimageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp" />
+
+        <TextView
+            android:id="@+id/MtextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/MimageView"
+            android:text="Title"
+            android:textColor="@android:color/black"
+            android:textSize="22sp"
+            android:layout_toRightOf="@+id/MimageView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/MtextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/MtextView"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/MimageView"
+            android:layout_toRightOf="@+id/MimageView"
+            android:text="Des"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

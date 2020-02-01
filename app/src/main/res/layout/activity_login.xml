@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".Main.Login"
+    android:background="@color/colorwhiteButton">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        />
+    <EditText
+        android:id="@+id/edit_email1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Email..."
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/Login1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20dp"
+
+        />
+    <TextView
+        android:id="@+id/kayıtsayfasına_git"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Please register..."
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+
+        />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
